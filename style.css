@@ -82,12 +82,8 @@ li{
     font-size: 40px;
     font-style: italic;
     color: bisque;
-}
-
-.tendencia h2{
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
-    font-style: normal;
 }
 .tendencia p{
     font-family: "Open Sans", sans-serif;
@@ -113,6 +109,11 @@ li{
     align-items: center;
     justify-content: space-around;
     padding: 2rem;
+}
+.reja_coleccion{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea columnas con el mismo ancho */
+    grid-gap: 1px;
 }
 .productos{
     padding: 2rem;
